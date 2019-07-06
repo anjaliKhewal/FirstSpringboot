@@ -20,6 +20,20 @@
   	
   </dependencies>
   
+  <!-- <repositories>
+	 <repository>
+      <id>myMavenRepo.read</id>
+      <url>https://mymavenrepo.com/repo/7io2a2BSoCRVEdEncwDS/</url>
+    </repository>
+	</repositories> -->
+	
+	<distributionManagement>
+    <repository>
+      <id>myMavenRepo.write</id>
+      <url>https://mymavenrepo.com/repo/W2HWRVdrScgCqZetdv5c/</url>
+    </repository>
+  </distributionManagement>
+  
   <properties>
   	<java.version>1.8</java.version>
   </properties>
